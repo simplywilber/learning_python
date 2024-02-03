@@ -12,6 +12,7 @@ test3 = int(input("Please type the third test score here: "))
 test4 = int(input("Please type the fourth test score here: "))
 test5 = int(input("please type the fifth test score here: "))
 
+# The highest score if statement
 if test1 > test2 and test1 > test3 and test1 > test4 and test1 > test5:
     print(f"The highest score is: {test1}")
 elif test2 > test1 and test2 > test3 and test2 > test4 and test2 > test5:
@@ -23,6 +24,7 @@ elif test4 > test1 and test4 > test2 and test4 > test3 and test4 > test5:
 else:
     print(f"The highest score is: {test5}")
     
+# The lowest score if statement
 if test1 < test2 and test1 < test3 and test1 < test4 and test1 < test5:
     print(f"The lowest score is: {test1}")
 elif test2 < test1 and test2 < test3 and test2 < test4 and test2 < test5:
@@ -33,6 +35,7 @@ elif test4 < test1 and test4 < test2 and test4 < test3 and test4 < test5:
     print(f"The lowest score is: {test4}")
 else:
     print(f"The lowest score is: {test5}")
-    
-average_score = (test1 + test2 + test3 + test4 + test5) // 5
+
+
+average_score = (test1 + test2 + test3 + test4 + test5) / 5
 print(f"The average score is: {average_score}")
