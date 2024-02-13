@@ -36,6 +36,7 @@ elif test4 < test1 and test4 < test2 and test4 < test3 and test4 < test5:
 else:
     print(f"The lowest score is: {test5}")
 
-
+# Average score total
 average_score = (test1 + test2 + test3 + test4 + test5) / 5
+
 print(f"The average score is: {average_score}")

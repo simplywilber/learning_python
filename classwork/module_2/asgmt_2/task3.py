@@ -21,6 +21,7 @@
 
 quiz1 = int(input("Please enter the first quiz score: "))
 quiz2 = int(input("Please enter the second quiz score: "))
+
 quiz_average = ((quiz1 + quiz2) // 2)
 
 midterm_grade = int(input("Please enter the midterm score: "))

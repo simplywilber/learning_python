@@ -12,10 +12,11 @@ month_input = input("Please enter the month here: ")
 day = input("please enter the day here: ")
 year = input("Please enter the year here: ")
 
-
 # Month name interger coversion if statement
 if month_input == "January":
     new_month = 1
+elif month_input == "February":
+    new_month = 2
 elif month_input == "March":
     new_month = 3
 elif month_input == "April":
