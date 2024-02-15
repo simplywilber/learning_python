@@ -1,11 +1,3 @@
-# Problem Activity #1
-# Make a program that would input five test scores and output the highest score,
-# the lowest score and average score.
-# Enter five test scores:
-# Highest score:
-# Lowest Score:
-# Average Score:
-
 # Test inputs as integers
 test1 = int(input("Please type the first test score here: "))
 test2 = int(input("Please type the second test score here: "))
