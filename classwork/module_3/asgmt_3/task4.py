@@ -17,7 +17,6 @@ for x in range(0, num):
         num= 1
         num+=1
         
-        
         # The end will provide space needed for the pyrami
         print(num , end=" ")
     print("\n") 
