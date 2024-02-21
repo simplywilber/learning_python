@@ -1,0 +1,10 @@
+# Number input determining rows and columns
+num = int(input("Please enter your number here: "))
+
+# For loop to create pyramid
+for i in range(1, num +1):
+    
+    for j in range(i):
+        print(i, end=" ")
+    # Final output    
+    print()
