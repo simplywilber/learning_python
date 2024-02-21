@@ -1,8 +1,3 @@
-# Task 1
-# Create a python program to find the area, circumference and 
-# diameter of a circle. Use math function for the value of π and power. 
-# Write the proper expression for each formula.
-
 import math
 
 # Input for the radius of a circle
