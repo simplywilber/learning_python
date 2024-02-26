@@ -3,8 +3,8 @@ nums = input("Please enter your numbers here separated by a space: ")
 
 # Create a new list and mmax variable
 nums_extraction = [int(i) for i in nums.split() if i.isdigit()]
-min = 20
-second_min = 25
+min = nums_extraction[0]
+second_min = nums_extraction[1]
 
 # Using for loop to find min and second min for comparison
 for x in nums_extraction:
