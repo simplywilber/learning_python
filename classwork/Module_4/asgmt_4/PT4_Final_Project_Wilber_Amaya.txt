@@ -133,6 +133,7 @@ def program_project_4():
                   You have exited the list
                 """
                 )
+            return
         
         # Input error catch if the user selection is invalid
         elif int(choice) < 1 or int(choice) > 4:
