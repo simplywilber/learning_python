@@ -13,12 +13,12 @@ def program_project_4():
         print(
             f"""
             =====================================================
-                    Choose an activity from the list:
+                      Choose an activity from the list:
             =====================================================
-                        [1] - Problem Activity #1
-                        [2] - Problem Activity #2
-                        [3] - Problem Activity #3
-                        [4] - Exit/Quit
+                         [1] - Problem Activity #1
+                         [2] - Problem Activity #2
+                         [3] - Problem Activity #3
+                         [4] - Exit/Quit
 
             """
         )
