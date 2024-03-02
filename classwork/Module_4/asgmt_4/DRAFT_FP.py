@@ -1,5 +1,5 @@
 # Importing time for message delay and readbility
-import time 
+import time
 
 # Defining the entire program 
 def program_project_4():
@@ -38,12 +38,12 @@ def program_project_4():
             if int(choice) == 1:
                 print(
                     """
-                        Welcome to problem activity #1
+                      Welcome to problem activity #1
                     """
                     )
                 
                 # Inital user input
-                nums = input("Enter elements of a list separated by space: ")
+                nums = input("Enter elements of a list separated by spaces: ")
 
                 # For loops used to extract integers 
                 str_extraction = [i for i in nums.split() if i.isdigit()]
@@ -70,15 +70,15 @@ def program_project_4():
             elif int(choice) == 2:
                 print(
                     """
-                        Welcome to problem activity #2
+                      Welcome to problem activity #2
                     """
                     )
                 
                 # Initial user input
-                nums = input("Please enter your numbers here separated by a space: ")
+                nums = input("Please enter your numbers here separated by commas: ")
 
-                # Create a new list and mmax variable
-                nums_extraction = [int(i) for i in nums.split() if i.isdigit()]
+                # Create a new list and max variable
+                nums_extraction = [int(i) for i in nums.split(",") if i.isdigit()]
                 min = 20
                 second_min = 25
 
@@ -103,14 +103,14 @@ def program_project_4():
             elif int(choice) == 3:
                 print(
                     """
-                        Welcome to problem activity #3
+                      Welcome to problem activity #3
                     """
                     )
                 # Initial user input
-                nums = input("Please enter your numbers here separated by a space: ")
+                nums = input("Please enter your numbers here separated by commas: ")
 
-                # Create a new list and mmax variable
-                nums_extraction = [int(i) for i in nums.split() if i.isdigit()]
+                # Create a new list and max variable
+                nums_extraction = [int(i) for i in nums.split(",") if i.isdigit()]
                 max = 0
                 second_max = 0
 
@@ -135,11 +135,15 @@ def program_project_4():
             elif int(choice) == 4:
                 print(
                     """
-                        You have exited the list
+                        You have exited the program\n
+            =====================================================
                     """
                     )
-
+                
                 running = False
+                break
+                
+                
             
             # Input error catch if the user selection is invalid
             elif int(choice) < 1 or int(choice) > 4:
