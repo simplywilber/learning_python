@@ -47,5 +47,7 @@
 n_list = [1, 2, 3, 4, 5, 6]
 f_list = ['Apples', 'Oranges', 'kiwis']
 copy_list = f_list.copy()
-print(copy_list)
+big_list = copy_list.append(n_list)
+
+print(big_list)
 
