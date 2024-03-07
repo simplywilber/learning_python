@@ -18,7 +18,7 @@ def program_project_4():
             """
         )
 
-        # Get user choice
+        # Get the user choice
         choice = (input("                       Please enter your choice: "))
 
         print(
@@ -104,11 +104,11 @@ def program_project_4():
                     )
                 break
 
-            # Invalid selection
+            # Invalid menu selection
             else:
                 print("Invalid selection. Please enter a number between 1 and 4.")
 
-        # Invalid input
+        # Invalid user input
         else:
             print("Invalid selection. Please enter a number between 1 and 4.")
 
