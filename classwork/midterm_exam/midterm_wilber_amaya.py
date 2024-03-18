@@ -1,4 +1,4 @@
-# Wilber Amaya-MAurisio Midterm Exam in Python Programming
+# Wilber Amaya-Maurisio Midterm Exam in Python Programming
 
 # Create a list of numbers
 mynumbers = [5, 10, 8, 7, 20, 18, 2, 9]
