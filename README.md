@@ -1,20 +1,12 @@
 # Learning Python <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="30" height="30" alt="python logo"/>
 
 <p> Welcome to my learning Python repository!</p>
-<p>This is my learning space for the current Python course I am enrolled in. </p>
+<p>This is my learning space for the current Python course I am enrolled in.</p>
 <p>Please feel free to contribute or provide any advice as I take on this new language</p>
 
-## Roadmap
-<div>
-<ul>
-    <li>
-        [ x ] Initial Commit
-        <Image src="https://media.giphy.com/media/yWI8ycaXuknOpxomyZ/giphy.gif" width="30px" height="30px" alt="confetti"/>
-        <Image src="https://media.giphy.com/media/7Q7fYv7rIVQ7rvXpgB/giphy.gif" width="30px" height="30px" alt="Wilber Celebrating"/>
-        <Image src="https://media.giphy.com/media/yWI8ycaXuknOpxomyZ/giphy.gif" width="30px" height="30px" alt="confetti"/>
-    </li>
-</ul>
-</div>
+<Image src="https://media.giphy.com/media/yWI8ycaXuknOpxomyZ/giphy.gif" width="30px" height="30px" alt="confetti"/>
+<Image src="https://media.giphy.com/media/7Q7fYv7rIVQ7rvXpgB/giphy.gif" width="30px" height="30px" alt="Wilber Celebrating"/>
+<Image src="https://media.giphy.com/media/yWI8ycaXuknOpxomyZ/giphy.gif" width="30px" height="30px" alt="confetti"/>
 
 ## Contributing
 
